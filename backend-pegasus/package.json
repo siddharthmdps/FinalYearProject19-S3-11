@@ -1,0 +1,29 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "Node.js REST API for FYP",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "keywords": [
+    "fyp",
+    "node",
+    "rest",
+    "api"
+  ],
+  "author": "Min",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dateformat": "^3.0.3",
+    "dotenv": "^8.1.0",
+    "express": "^4.17.1",
+    "express-fileupload": "^1.1.6-alpha.6",
+    "multer": "^1.4.2",
+    "mysql": "^2.17.1",
+    "path": "^0.12.7",
+    "sha1": "^1.1.1"
+  },
+  "devDependencies": {}
+}
